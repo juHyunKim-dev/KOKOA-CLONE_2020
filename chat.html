@@ -41,11 +41,11 @@
     <main class="main-screen main-chat">
       <div class="chat__timestamp">Tuesday, June 30, 2020</div>
 
-      <div class="messasge-row">
+      <div class="message-row">
         <img
           src="https://i.pinimg.com/736x/99/d8/a1/99d8a1b90d937feab0b627761f9e994e.jpg"
         />
-        <div class="messasge-row__content">
+        <div class="message-row__content">
           <span class="message__author">서동성</span>
           <div class="message__info">
             <span class="message__bubble">뭐해?</span>
@@ -53,7 +53,29 @@
           </div>
         </div>
       </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">안뇽!</span>
+            <span class="message__time">21:53</span>
+          </div>
+        </div>
+      </div>
     </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-grin-alt fa-lg"></i>
+        <button>
+          <i class="far fa-paper-plane"></i>
+        </button>
+      </div>
+    </form>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
